@@ -1,5 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Navbar */
+nav {
+  background: #f55a5a;
+  width: 100vw;
+}
+.title {
+  font-weight: 500;
+  font-size: 14.4608px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+  text-align: center;
+  padding-block: 10px;
+}
+
+/* Card */
+.card-wrapper {
+  width: 470px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.cover-img {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.content-wrapper > svg {
+  position: relative;
+  width: 7px;
+  fill: #f55a5a;
+}
+.content-wrapper > h3 {
+  display: inline;
+  font-weight: 400;
+  font-size: 10.24px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+  margin-left: 4px;
+}
+.content-wrapper > a {
+  font-weight: 400;
+  font-size: 10.24px;
+  text-decoration-line: underline;
+  color: #918e9b;
+  margin-left: 12px;
+}
+.content-wrapper > h2 {
+  font-size: 25px;
+  color: #2b283a;
+}
+.content-wrapper > h4 {
+  font-weight: 700;
+  font-size: 10.24px;
+  color: #2b283a;
+  margin-top: 15px;
+}
+.content-wrapper > p {
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2b283a;
+  margin-top: 10px;
 }
